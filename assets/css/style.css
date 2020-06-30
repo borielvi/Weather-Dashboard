@@ -25,3 +25,14 @@
 .search {
     float: left;
 }
+
+.bigCities {
+    margin-top: 10px;
+}
+
+.cities {
+    width: 207px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
