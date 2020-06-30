@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <header>Weather Dashboard</header>
+    <header class="header">
+        <h1 class="display-3">Weather Dashboard</h1>
+    </header>
+
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+            <div class="card">
+                <div class="search">
+                    <h3 class="card-header">Search for cities:</h3>
+                    <form id="user-form" class="card-body">
+                        <input name="city" class="form-input" id="text"></input>
+                        <button type="button" id="searchBtn">
+                            <span class="oi oi-magnifying-glass"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="bigCities">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets\js\script.js"></script>
 </body>
 </html>
