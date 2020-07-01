@@ -209,7 +209,7 @@ var setWeather = function(data, fiveDay){
     var lat = data.coord.lat;
     var long = data.coord.lon;
     var name = data.name;
-    var uvIndex = "http://api.openweathermap.org/data/2.5/uvi?appid=4ec8ea150c1978f3a68ff2aed20de093&lat=" + lat + "&lon=" + long;
+    var uvIndex = "https://api.openweathermap.org/data/2.5/uvi?appid=4ec8ea150c1978f3a68ff2aed20de093&lat=" + lat + "&lon=" + long;
 
     for(var i = 0; i < 4; i++){
         if(iconName[i] == data.weather[0].main){
